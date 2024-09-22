@@ -12,3 +12,7 @@ My advice for you guys is read and understand all the explanation that i include
     What i said earlier try doing it and do not copy and paste.
     No need to memorize just familiarize it.
     Keep practicing.
+
+Here is my google docs HTML & CSS my notes:
+https://docs.google.com/document/d/1sHswlS_PC8IU1H9b7RcmmROWEeiR4yw_qqUzHmbDFwk/edit?usp=sharing
+https://docs.google.com/document/d/1Xs9XqBCFKJIXnQ4dNaD8su4jGblWLx4VYNpNXZUrwNc/edit?usp=sharing
