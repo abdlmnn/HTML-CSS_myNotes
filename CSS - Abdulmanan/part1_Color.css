@@ -1,0 +1,8 @@
+h1 {
+    color: blue; 
+    /* changing color of the element which is h1 element into blue or any color you want */
+    /* white or #fff or rgb(0,0,0) or rgba(0, 0, 0, 1) */
+
+    text-align: center; 
+    /* aligning text element which is h1 element into center, it could be on the left or right */
+}
