@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohammad Abdulmanan">
+
+    <title>Part 10 - Responsive  & Media queries</title>
+
+    <style>
+        /* 
+        @media 
+        specify what type of media i would like to apply this query. 
+         
+        (min-width: 600px)
+        if minimum width of the page is 600px, in other words, 
+        if the width of the page is 600 pixels or anything larer than 600 pixels
+
+        body {}
+        then go ahead and take the body and give it a background color of red.  
+        */
+        @media (min-width: 600px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        /* 
+        if the size of the screen is 599 pixels or fewer, then maybe i'd like to take the body
+        and give it a background color of blue.
+        */
+        @media (max-width: 599px) {
+            body {
+                background-color: blue;
+            }
+
+            h1 {
+                font-size: 55px;   
+                color: white;
+            }
+        }
+
+        /* 
+        
+            Take note: you will see the web page is red, because your screen is longer than 600px wide
+            but notice what happens if you shrink or zoom in the web page, looking out in a smaller screen
+            eventually it turns blue because your screen is below 600px wide.
+
+            if screen is above 600px wide the color is red
+            if screen is below 600px wide the color is blue
+
+        */
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Note Page!</h1>
+</body>
+</html>

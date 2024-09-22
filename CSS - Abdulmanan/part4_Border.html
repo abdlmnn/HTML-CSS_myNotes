@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohammad Abdulmanan">
+
+    <title>Part 3 - Border</title>
+
+    <style>
+        div {
+            border: 3px solid black;
+            /* 
+            3px - i can specify how big i want the border to be which is 3px. 
+            solid - i can specify whether i want the border to be a solid line or dashed or dotted line. 
+            black - i can specify what color i would like that border to be as well.  
+            */
+        }
+        
+        /* This is the time you will see the table has border */
+        table {
+            border: 2px solid rgb(0, 0, 0);
+
+            border-collapse: collapse;
+            /* Single border around the cells in the particular page */
+        }
+
+        td, th {
+            border: 1px solid black;
+
+            /* we are gonna add some spacing, should i use margin or padding? */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I am inside of a border
+    </div>
+
+    <br> 
+    <!-- br means break line -->
+    
+    Example of a border each row and column:
+    <table>
+        <thead>
+            <tr>
+                <th> Ocean </th>
+                <th> Average Depth </th>
+                <th> Maximum Depth </th>
+            </tr>
+        <thead>
+        <tbody>
+            <tr> 
+                <td> Pacific Ocean </td>
+                <td> 4,280 m </td>
+                <td> 10,911 m </td>		
+            </tr>
+            <tr> 
+                <td> Atlantic Ocean </td>
+                <td> 3,646 m </td>
+                <td> 8,486 m </td>		
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>
