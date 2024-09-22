@@ -17,7 +17,7 @@
 // as you can see anything with a class of success or warning or danger, i'm going to extends this message
 // by extends this message what i mean is that anything with a class of success or warning or danger
 // is going to inherit all of these CSS properties the font, border, padding, margin so on...
-// but it's going to add additional information to it which is the background color green, orange, red
+// but it's going to add additional information to it which is the background color is green, orange, red
 .success {
     @extend %message;
     background-color: green;
