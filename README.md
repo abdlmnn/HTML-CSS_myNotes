@@ -1,4 +1,4 @@
-I'm Mohammad Abdulmanan i hope this notes that i created might help for you especially for those who are beginners and starting to learn HTML and CSS.
+I hope this notes that i created might help for you especially for those who are beginners and starting to learn HTML and CSS.
 
 My advice for you guys is read and understand all the explanation that i included of each HTML and CSS file.
 
