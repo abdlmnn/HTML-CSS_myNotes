@@ -1,0 +1,23 @@
+
+// What you can do in Sass is you can actually create variables
+// in the same way that we could create variables in programming languages, like python
+
+// Take note: CSS doesn't support variables, but Sass is going to give us that power.
+
+// In Sass all variables beign with a Dollar sign $
+
+// Create a variable $color to create a variable called color and the value is red
+$color: rgb(0, 255, 47);
+
+// you can use normal CSS and say for an unorder list
+ul {
+    font-size: 12px;
+    color: $color;
+    // you can say $color to mean go ahead and use the value of the variable color
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+    // color should also be this variable called $color
+}

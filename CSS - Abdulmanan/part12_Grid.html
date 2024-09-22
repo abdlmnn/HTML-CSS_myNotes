@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohammad Abdulmanan">
+
+    <title>Part 12 - Grid</title>
+
+    <style>
+        /* 
+        take note: column arranges vertically from top to bottom
+                   row arranges horizontally from left to right
+
+            how much space goes betwen each of the columns
+                grid-column-gap: ;
+
+            let's say 20 pixels
+                grid-column-gap: 20px;
+
+            how much space goes betwen each of the rows of the grid
+                grid-row-gap: ;
+            
+            let's say 10 pixels
+                grid-row-gap: 10px;
+
+            how many columns there are going to be and how wide should each of those columns be 
+                grid-template-columns: ;
+            
+            let's say 3 columns you can specify the first, second, third columns
+            first column is 200 pixels which is left
+            second column is also 200 pixels which is middle 
+            third column can be automatically which is right
+                gird-template-columns: 200px 200px auto;
+                                       left middle center
+        */
+        #grid {
+            display: grid;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+            /* 
+                important ones to care about here are display is grid
+                then specifying, how the grid should be laid out,
+                how much space between columns, how much space between rows,
+                and how much wide are each of thos rows going to be. 
+            */
+
+            /* Try this uncomment it and comment the first one on top */
+            /* display: grid;
+            grid-column-gap: 20px;
+            grid-row-gap: 15px;
+            grid-template-columns: 150px 150px 150px; */
+
+            background-color: green;
+            padding: 20px;
+        }
+
+        /* additional CSS properties for grid item */
+        .grid-item {
+            background-color: white;
+            color: black;
+            font-size: 25px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">13</div>
+        <div class="grid-item">14</div>
+        <div class="grid-item">15</div>
+    </div>
+</body>
+</html>

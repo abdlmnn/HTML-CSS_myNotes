@@ -1,0 +1,22 @@
+.danger, .warning, .success {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.success {
+  background-color: green;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.danger {
+  background-color: red;
+}
+
+/*# sourceMappingURL=part16_Inheritance.css.map */

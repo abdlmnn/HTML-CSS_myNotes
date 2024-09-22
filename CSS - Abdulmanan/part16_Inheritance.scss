@@ -1,0 +1,34 @@
+
+// i've here defined using a percent sign % that this is what a generic message is going to be,
+// something that you can extend later to add additional information to
+// all the messages, whether they be sucess, warning, danger messages, 
+// they're all going to be the same properties like font, border, padding, margin so on...
+// but each of the specific messages are going to be slightly different
+%message {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+// how are they different?
+// as you can see anything with a class of success or warning or danger, i'm going to extends this message
+// by extends this message what i mean is that anything with a class of success or warning or danger
+// is going to inherit all of these CSS properties the font, border, padding, margin so on...
+// but it's going to add additional information to it which is the background color green, orange, red
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.danger {
+    @extend %message;
+    background-color: red;
+}

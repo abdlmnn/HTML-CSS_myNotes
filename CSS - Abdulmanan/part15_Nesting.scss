@@ -1,0 +1,21 @@
+
+// i created a variable called myColor
+$myColor: rgb(64, 255, 0);
+
+// div the class called parent
+.parent {
+    font-size: 18px;
+    border: 2px solid $myColor;
+    padding: 10px;
+    
+    p {
+        font-size: 10px;
+        color: $myColor;
+        text-align: center;
+    }
+
+    ul {
+        color: $myColor;
+        font-size: 30px;
+    }
+}

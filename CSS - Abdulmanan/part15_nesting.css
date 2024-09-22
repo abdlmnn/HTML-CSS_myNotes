@@ -1,0 +1,16 @@
+.parent {
+  font-size: 18px;
+  border: 2px solid rgb(64, 255, 0);
+  padding: 10px;
+}
+.parent p {
+  font-size: 10px;
+  color: rgb(64, 255, 0);
+  text-align: center;
+}
+.parent ul {
+  color: rgb(64, 255, 0);
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=part15_nesting.css.map */
